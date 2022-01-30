@@ -35,3 +35,35 @@ const resultsContainer = document.querySelector(".results");
 resultsContainer.innerHTML = "<p>New paragraph</p>";
 resultsContainer.style.backgroundColor = "yellow";
 
+// Question 7
+
+const cats = [
+    {
+        name: "Blob",
+        age: 10
+    },
+    {
+        name: "Harold",
+    },
+    {
+        name: "Blurt",
+        age: 21
+    }
+];
+
+function createList (list) {
+    for(var i = 0; i < cats.length; i++) {
+        let name = cats[i].name;
+        console.log(name);
+    }
+}
+
+createList();
+
+// Question 8
+
+function createCats (cats){
+    
+}
+
+
