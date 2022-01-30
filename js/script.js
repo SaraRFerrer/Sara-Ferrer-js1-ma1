@@ -62,8 +62,37 @@ createList();
 
 // Question 8
 
+const cats = [
+    {
+        name: "Blob",
+        age: 10
+    },
+    {
+        name: "Harold",
+    },
+    {
+        name: "Blurt",
+        age: 21
+    }
+];
+
 function createCats (cats){
-    
-}
+    for(var i = 0; i < cats.length; i++) {
+        console.log(cats);
+    } 
+
+} 
+
+const results = document.querySelector(".results");
+
+results.innerHTML = `
+<h5>Name: Blob</h5>
+<h5>Name: Harold</h5>
+<h5> Name: Blurt</h5>`;
+
+const catContainer = document.querySelector(".cat-container");
+
+
+
 
 
